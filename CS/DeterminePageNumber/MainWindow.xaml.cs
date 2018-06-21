@@ -13,8 +13,8 @@ namespace DeterminePageNumber {
         }
 
         private void pdfViewer_MouseDown(object sender, MouseButtonEventArgs e) {
-            PdfHitTestResult position = pdfViewer.HitTest(e.GetPosition(pdfViewer));
-            MessageBox.Show(string.Format("You clicked on page {0}", position.DocumentPosition.PageNumber));
+            PdfHitTestResult result = pdfViewer.HitTest(e.GetPosition(pdfViewer));
+            MessageBox.Show(string.Format("You clicked on page {0}", result.DocumentPosition.PageNumber));
         }
     }
 }
