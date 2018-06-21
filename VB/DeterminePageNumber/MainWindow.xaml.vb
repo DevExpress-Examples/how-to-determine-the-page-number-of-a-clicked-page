@@ -14,8 +14,8 @@ Namespace DeterminePageNumber
         End Sub
 
         Private Sub pdfViewer_MouseDown(ByVal sender As Object, ByVal e As MouseButtonEventArgs)
-            Dim position As PdfHitTestResult = pdfViewer.HitTest(e.GetPosition(pdfViewer))
-            MessageBox.Show(String.Format("You clicked on page {0}", position.DocumentPosition.PageNumber))
+        Dim result As PdfHitTestResult = pdfViewer.HitTest(e.GetPosition(pdfViewer))
+        MessageBox.Show(String.Format("You clicked on page {0}", result.DocumentPosition.PageNumber))
         End Sub
     End Class
 End Namespace
