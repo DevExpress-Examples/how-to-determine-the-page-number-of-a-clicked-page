@@ -4,7 +4,7 @@
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 [![](https://img.shields.io/badge/💬_Leave_Feedback-feecdd?style=flat-square)](#does-this-example-address-your-development-requirementsobjectives)
 <!-- default badges end -->
-# # PDF Viewer - Determine the page number of a clicked page
+# PDF Viewer - Determine the page number of a clicked page
 
 This example determines what a page was clicked in a document using the [PdfViewerControl.HitTest](https://docs.devexpress.com/WPF/DevExpress.Xpf.PdfViewer.PdfViewerControl.HitTest(System.Windows.Point)) method.
 
